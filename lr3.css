@@ -1,0 +1,99 @@
+.fourth-level-menu
+{
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    list-style: none;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.fourth-level-menu > li
+{
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: blue;
+}
+.third-level-menu
+{
+    position: absolute;
+    top: 0px;
+    right: -200px;
+
+    list-style: none;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li
+{
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: blue;
+}
+
+div{
+    width: 50%;
+    margin-left: 50%;
+}
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: blue;
+}
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 136px;
+    width: 33%;
+    background: blue;
+}
+.top-level-menu li:hover > ul
+{
+    display: inline; /* показ наступного меню, підряд */
+}
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Щодо посилань всередині меню*/
+{
+    font: bold 24px Arial;
+    color: #FFFFFF; 
+    padding: 0 0 0 10px;
+    text-decoration: none; <!-без підкрсл->
+    display: block; /*контейнер блок над одним*/
+    line-height: 30px;
+    
+}
