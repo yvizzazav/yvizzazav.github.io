@@ -1,0 +1,169 @@
+h1 {
+color: black;
+font: arial;
+font-size: 20px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+h2 {
+color: black;
+font: arial;
+font-size: 15px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+h3 {
+color: black;
+font: arial;
+font-size: 11px;
+font-weight: normal;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+h4 {
+color: black;
+font: arial;
+font-size: 9px;
+font-weight: normal;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+.fourth-level-menu
+{
+    position: absolute;
+    top: 0px;
+    right: -150px;
+    list-style: none;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.fourth-level-menu > li
+{
+position: relative;
+    height: 30px;
+    background: green;
+}
+.third-level-menu
+{
+    position: absolute;
+    top: 0px;
+    right:-150px;
+    list-style: none;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li
+{
+position: relative;
+    height: 30px;
+    background: blue;
+}
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 150px;
+
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: yellow;
+
+}
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 136px;
+    width: 32.1%;
+    background: #0dbfe5;
+    border: solid 3px black
+    
+}
+.top-level-menu li:hover > ul
+{
+    display: inline; /* показ наступного меню, підряд */
+}
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Щодо посилань всередині меню*/
+{
+    
+    font: bold 24px "Myriad Pro", Arial;
+    color: #FFFFFF; 
+    padding: 0px 0px 0px 0px;
+    text-decoration: none; <!-без підкр->
+    display: block; /*контейнер блок над одним*/
+    line-height: 30px;
+}
+table 
+{
+width: 100%;
+border: 3px solid black;
+border-collapse: collapse;
+float:left;
+}
+td, th
+{
+border: 3px solid black;
+vertical-align: "middle";
+text-align: "center";
+}
+p {
+ font-size: 19px;
+ font-weight: normal;
+ font-family: arial, "times new roman";
+ color: black;
+ padding-top: 1px;
+ padding-bottom: 1px;
+}
+:link {
+ color: blue;
+ text-decoration: none;
+}
+a:active {
+ color: yellow;
+ text-decoration: none;
+}
+a:visited {
+ color: red;
+ text-decoration: none;
+ vertical-align:middle;
+}
+a:hover {
+ color: green;
+ text-decoration: none;
+}
+li a{ font-size: 24px; }
+.newimg {
+  float: left;
+}
+.newimg
+{
+float:left;
+}
